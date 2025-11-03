@@ -16,16 +16,16 @@ export function Header() {
 
                 <nav className="hidden md:flex items-center gap-6">
                     <a href="#about" className="text-sm text-slate-300 hover:text-white transition-colors">
-                        About
+                        Sobre
                     </a>
                     <a href="#features" className="text-sm text-slate-300 hover:text-white transition-colors">
-                        Features
+                        Funcionalidades
                     </a>
                     <a href="#modules" className="text-sm text-slate-300 hover:text-white transition-colors">
-                        Modules
+                        Módulos
                     </a>
                     <a href="#documentation" className="text-sm text-slate-300 hover:text-white transition-colors">
-                        Documentation
+                        Documentação
                     </a>
                     <a href="#changelog" className="text-sm text-slate-300 hover:text-white transition-colors">
                         Changelog
@@ -35,7 +35,7 @@ export function Header() {
                 <Button className="flex justify-center items-center bg-transparent border border-slate-700 rounded-md 
                                  text-white hover:bg-slate-800 p-2.5 hover:cursor-pointer">
                     <Github className="mr-2 h-4 w-4" />
-                    View on GitHub
+                    Ver no GitHub
                 </Button>
             </div>
         </header>
