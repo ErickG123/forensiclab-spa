@@ -11,6 +11,7 @@ import { HeroSection } from "./components/HeroSection";
 import { Modules } from "./components/Modules";
 import { ProblemSolution } from "./components/ProblemSolution";
 import { Roadmap } from "./components/Roadmap";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
       <Footer />
 
       <Analytics />
+      <SpeedInsights/>
     </div>
   );
 }
