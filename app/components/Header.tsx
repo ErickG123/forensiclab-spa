@@ -32,11 +32,13 @@ export function Header() {
                     </a>
                 </nav>
 
-                <Button className="flex justify-center items-center bg-transparent border border-slate-700 rounded-md 
+                <a href="https://github.com/ErickG123/devkit_forense" target="_blank">
+                    <Button className="flex justify-center items-center bg-transparent border border-slate-700 rounded-md 
                                  text-white hover:bg-slate-800 p-2.5 hover:cursor-pointer">
-                    <Github className="mr-2 h-4 w-4" />
-                    Ver no GitHub
-                </Button>
+                        <Github className="mr-2 h-4 w-4" />
+                        Ver no GitHub
+                    </Button>
+                </a>
             </div>
         </header>
     );
