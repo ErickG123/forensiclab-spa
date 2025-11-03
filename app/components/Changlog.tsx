@@ -33,75 +33,59 @@ export function Changelog() {
             ]
         },
         {
-            version: "0.1.5",
-            date: "2024-11-28",
+            version: "1.4.6",
+            date: "2024-09-24",
             status: "Atual",
             changes: [
                 {
-                    type: "fix",
-                    description: "Corrigido bug na extração de histórico do Firefox no Windows"
-                },
-                {
-                    type: "fix",
-                    description: "Resolvido problema de encoding em análise de emails com caracteres especiais"
+                    type: "enhancement",
+                    description: "Melhorias do README"
                 },
                 {
                     type: "enhancement",
-                    description: "Melhorado desempenho do scan de portas em redes grandes"
+                    description: "Melhoria nas funções de port scanner e network map"
+                },
+                {
+                    type: "feature",
+                    description: "Adição da visualização em nodes para o network map"
+                },
+                {
+                    type: "fix",
+                    description: "Correções no workflow de deploy"
+                }
+            ]
+        },
+        {
+            version: "1.0.0",
+            date: "2024-09-01",
+            status: "Lançamento Inicial",
+            changes: [
+                {
+                    type: "feature",
+                    description: "Criação da pipeline de deploy do projeto no PyPi e GitHub Pages"
                 },
                 {
                     type: "enhancement",
-                    description: "Adicionado progress bar para operações demoradas"
+                    description: "Adição de barras de progresso na execução das funções"
                 }
             ]
         },
         {
             version: "0.1.0",
-            date: "2024-10-30",
-            status: "Lançamento Inicial",
-            changes: [
-                {
-                    type: "feature",
-                    description: "Módulo Network com comandos: ipinfo, scan, arpscan, fingerprinting"
-                },
-                {
-                    type: "feature",
-                    description: "Módulo Browser com suporte a Chrome, Firefox, Edge e Safari"
-                },
-                {
-                    type: "feature",
-                    description: "Interface CLI construída com Typer e Rich"
-                },
-                {
-                    type: "feature",
-                    description: "Arquitetura modular e extensível"
-                },
-                {
-                    type: "feature",
-                    description: "Documentação completa em Português"
-                },
-                {
-                    type: "feature",
-                    description: "Testes automatizados com pytest"
-                }
-            ]
-        },
-        {
-            version: "0.0.1",
-            date: "2024-09-15",
+            date: "2024-08-19",
             status: "Alpha",
             changes: [
                 {
                     type: "feature",
-                    description: "Prova de conceito inicial"
+                    description: "Criação dos módulos de browser, network e email"
                 },
                 {
                     type: "feature",
-                    description: "Estrutura básica do projeto"
+                    description: "Criação da CLI utilizando Typer"
                 },
                 {
                     type: "feature",
-                    description: "Primeiros comandos de rede"
+                    description: "Integração da CLI com os módulos"
                 }
             ]
         }
@@ -223,7 +207,7 @@ export function Changelog() {
                     <Card className="inline-block bg-slate-900 border border-slate-800 rounded-md px-6 py-4">
                         <p className="text-sm text-slate-400">
                             Para ver o changelog completo e detalhado, visite o{" "}
-                            <a href="https://github.com/ErickG123/devkit_forense" className="text-blue-400 hover:text-blue-300 underline">
+                            <a href="https://erickg123.github.io/devkit_forense/" target="_blank" className="text-blue-400 hover:text-blue-300 underline">
                                 repositório no GitHub
                             </a>
                         </p>

@@ -4,23 +4,28 @@ import { Network, Globe, Mail } from "lucide-react";
 export function Modules() {
     const modules = {
         network: [
-            { name: "ipinfo", description: "Informações detalhadas sobre endereços IP" },
-            { name: "arpscan", description: "Scan de rede via protocolo ARP" },
-            { name: "map", description: "Mapeamento de hosts na rede" },
-            { name: "scan", description: "Varredura de portas abertas" },
-            { name: "fingerprinting", description: "Identificação de serviços e sistemas" }
+            { name: "ipinfo", description: "Informações detalhadas sobre endereços IP." },
+            { name: "arpscan", description: "Scan de rede via protocolo ARP." },
+            { name: "dnscan", description: "Realiza levantamento de informações de DNS de domínios e hosts." },
+            { name: "snmpscan", description: "Realiza varredura SNMP em dispositivos de rede." },
+            { name: "smbscan", description: "Verifica serviços SMB ativos em um host." },
+            { name: "sweep", description: "Verifica quais hosts estão ativos em uma faixa de IP." },
+            { name: "traceroute", description: "Traça o caminho percorrido por pacotes até um host alvo." },
+            { name: "map", description: "Mapeamento de hosts na rede." },
+            { name: "scan", description: "Varredura de portas abertas." },
+            { name: "fingerprinting", description: "Identificação de serviços e sistemas." }
         ],
         browser: [
             { name: "logins", description: "Extração de credenciais salvas" },
-            { name: "history", description: "Análise de histórico de navegação" },
-            { name: "downloads", description: "Lista de arquivos baixados" },
-            { name: "patterns", description: "Detecção de padrões suspeitos" }
+            { name: "favscreen", description: "Captura e organiza screenshots de sites favoritos ou acessados." },
+            { name: "words", description: "Identifica palavras mais comuns em histórico de navegação e downloads." },
+            { name: "history", description: "Análise de histórico de navegação." },
+            { name: "downloads", description: "Lista de arquivos baixados." },
+            { name: "patterns", description: "Detecção de padrões suspeitos." }
         ],
         email: [
-            { name: "email_parser", description: "Parse de arquivos .eml e .msg" },
-            { name: "header_analysis", description: "Análise de cabeçalhos SMTP" },
-            { name: "attachment_extraction", description: "Extração segura de anexos" },
-            { name: "metadata", description: "Extração de metadados de mensagens" }
+            { name: "email_parser", description: "Parse de arquivos .eml e .msg." },
+            { name: "header_analysis", description: "Análise de cabeçalhos SMTP." }
         ]
     };
 
