@@ -16,20 +16,28 @@ export function Documentation() {
         <div className="max-w-5xl mx-auto">
           <Tabs.Root defaultValue="quickstart" className="w-full">
             <Tabs.List className="grid w-full grid-cols-4 bg-slate-950 border border-slate-800 p-1">
-              <Tabs.Trigger value="quickstart" className="data-[state=active]:bg-slate-800 data-[state=active]:text-white">
-                <Terminal className="mr-2 h-4 w-4" />
+              <Tabs.Trigger value="quickstart"
+                className="flex-1 flex items-center justify-center gap-2 px-4 py-2 text-slate-300 rounded-md transition
+                                           data-[state=active]:bg-slate-800 data-[state=active]:text-white">
+                <Terminal className="mx-auto h-4 w-4" />
                 Quick Start
               </Tabs.Trigger>
-              <Tabs.Trigger value="usage" className="data-[state=active]:bg-slate-800 data-[state=active]:text-white">
-                <Code2 className="mr-2 h-4 w-4" />
+              <Tabs.Trigger value="usage"
+                className="flex-1 flex items-center justify-center gap-2 px-4 py-2 text-slate-300 rounded-md transition
+                                           data-[state=active]:bg-slate-800 data-[state=active]:text-white">
+                <Code2 className="mx-auto h-4 w-4" />
                 Usage
               </Tabs.Trigger>
-              <Tabs.Trigger value="modules" className="data-[state=active]:bg-slate-800 data-[state=active]:text-white">
-                <BookOpen className="mr-2 h-4 w-4" />
+              <Tabs.Trigger value="modules"
+                className="flex-1 flex items-center justify-center gap-2 px-4 py-2 text-slate-300 rounded-md transition
+                                           data-[state=active]:bg-slate-800 data-[state=active]:text-white">
+                <BookOpen className="mx-auto h-4 w-4" />
                 Modules
               </Tabs.Trigger>
-              <Tabs.Trigger value="contributing" className="data-[state=active]:bg-slate-800 data-[state=active]:text-white">
-                <Wrench className="mr-2 h-4 w-4" />
+              <Tabs.Trigger value="contributing"
+                className="flex-1 flex items-center justify-center gap-2 px-4 py-2 text-slate-300 rounded-md transition
+                                           data-[state=active]:bg-slate-800 data-[state=active]:text-white">
+                <Wrench className="mx-auto h-4 w-4" />
                 Contributing
               </Tabs.Trigger>
             </Tabs.List>

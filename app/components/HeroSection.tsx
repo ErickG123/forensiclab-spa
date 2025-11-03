@@ -38,10 +38,10 @@ export function HeroSection() {
           </div>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Button size="3" className="bg-blue-600 hover:bg-blue-700 text-white rounded-md p-2.5">
+            <Button size="3" className="bg-blue-600 hover:bg-blue-700 text-white rounded-md p-2.5 hover:cursor-pointer">
               Documentation
             </Button>
-            <Button size="3" className="bg-transparent border-slate-700 text-white hover:bg-slate-800">
+            <Button size="3" className="bg-transparent border-slate-700 text-white hover:bg-slate-800 rounded-md p-2.5 hover:cursor-pointer">
               See Examples
             </Button>
           </div>
