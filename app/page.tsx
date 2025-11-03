@@ -1,5 +1,6 @@
 "use client"
 
+import { Analytics } from "@vercel/analytics/next";
 import { CLIExample } from "./components/CLIExample";
 import { Changelog } from "./components/Changlog";
 import { Documentation } from "./components/Documentation";
@@ -24,6 +25,8 @@ export default function Home() {
       <Changelog />
       <Roadmap />
       <Footer />
+
+      <Analytics />
     </div>
   );
 }
