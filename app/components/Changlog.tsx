@@ -6,21 +6,13 @@ import { Calendar, GitCommit, Sparkles, Bug, Wrench, AlertCircle } from "lucide-
 export function Changelog() {
     const versions = [
         {
-            version: "0.2.0",
-            date: "2024-12-15",
+            version: "1.5.0",
+            date: "2024-11-03",
             status: "Em Desenvolvimento",
             changes: [
                 {
-                    type: "feature",
-                    description: "Adicionado módulo de análise de email com suporte a .eml e .msg"
-                },
-                {
-                    type: "feature",
-                    description: "Novo comando 'browser patterns' para detecção de comportamentos suspeitos"
-                },
-                {
                     type: "enhancement",
-                    description: "Melhorias na extração de credenciais do Chrome/Firefox"
+                    description: "Melhoria nas funcionalidades existentes"
                 },
                 {
                     type: "enhancement",
@@ -28,7 +20,7 @@ export function Changelog() {
                 },
                 {
                     type: "feature",
-                    description: "Wizard interativo para guiar análises forenses"
+                    description: "Internacionalização da aplicação"
                 }
             ]
         },
